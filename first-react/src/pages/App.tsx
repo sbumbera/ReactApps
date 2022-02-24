@@ -3,7 +3,6 @@ import logo from "./logo.svg";
 import './App.css'
 import Expenses from "../components/Expenses/Expenses";
 import NewExpense from "../components/NewExpense/NewExpense";
-import MintItem from "./MintItem";
 
 const App = () => {
   const expenses = [
@@ -35,7 +34,6 @@ const App = () => {
   return (
     <div className="App">
       <NewExpense />
-      <MintItem />
       <Expenses items={expenses} />
     </div>
   );
